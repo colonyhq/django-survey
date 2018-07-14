@@ -11,7 +11,7 @@ from future import standard_library
 from pandas.core.frame import DataFrame
 
 from survey.exporter.tex.question2tex import Question2Tex
-from survey.exporter.tex.sankey import sankey
+from pySankey.sankey import sankey
 from survey.models.question import Question
 
 standard_library.install_aliases()
